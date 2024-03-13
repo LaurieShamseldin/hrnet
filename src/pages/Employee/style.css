@@ -1,0 +1,11 @@
+/* Style pour la page des employés */
+.employee {
+  background-color: #EBEDE4;
+  padding: 20px 20px 50px 20px;
+}
+
+.employee__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align:center;
+}

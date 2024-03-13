@@ -1,0 +1,11 @@
+[
+  { "title": "First Name", "data": "firstName", "type": "string" },
+  { "title": "Last Name", "data": "lastName", "type": "string" },
+  { "title": "Start Date", "data": "startDate", "type": "date"  },
+  { "title": "Department", "data": "department", "type": "string"},
+  { "title": "Date of Birth", "data": "dateOfBirth", "type": "date" },
+  { "title": "Street", "data": "street", "type": "string" },
+  { "title": "City", "data": "city", "type": "string" },
+  { "title": "State", "data": "state", "type": "string" },
+  { "title": "Zip Code", "data": "zipCode", "type": "string" }
+]

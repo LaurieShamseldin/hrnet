@@ -1,0 +1,48 @@
+.select-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.select-wrapper label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.select-wrapper select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.select-wrapper select:focus {
+  outline: none;
+  border-color: #547000; /* Changez cette couleur selon vos préférences */
+}
+
+/* Style pour la flèche de sélection */
+.select-wrapper select::-ms-expand {
+  display: none;
+}
+
+/* Style pour la flèche de sélection dans Firefox */
+.select-wrapper select::-moz-focus-inner {
+  border: 0;
+}
+
+/* Style pour les options */
+.select-wrapper select option {
+  padding: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Hover effect sur les options */
+.select-wrapper select option:hover {
+  background-color: #f0f0f0;
+}

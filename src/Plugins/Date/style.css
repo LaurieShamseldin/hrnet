@@ -1,0 +1,29 @@
+.input-date label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-date input[type="date"] {
+  width: 240px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style pour le bouton du calendrier */
+.input-date button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.input-date button:hover {
+  color: #333;
+}
